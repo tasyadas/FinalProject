@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+body{
+    overflow: hidden;
+    height: 700px;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.carousel-item{
+    background: -webkit-linear-gradient(#8860d0, #84CEEB);
+
+}
+.carousel-item>img{
+    width: 650px !important;
+    height: 300px;
+    margin-left: 230px;
+}
+
+
+.myButton{
+    color: purple !important;
+    border: 2px solid black !important;
+    font-weight: bold !important;
+    border-radius: 1.5em !important;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+footer{
+    font-size: 14px !important;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+div>.row>.card{
+    width: 153px !important;
+    height: 247px;
+    font-size: 13px;
+    margin: 50px 20px;
+}
+
+div>.row>.card>.card-body{
+    padding: 4px !important;
+}
+
+div>.row>.card>img{
+    width: 150px;
+    height: 190px;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 90px !important;
+    background: -webkit-linear-gradient(#8860d0, #84CEEB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card1{
+    margin-top: 70px !important;
+}
+
+.card2{
+    margin-top: 180px !important;
+}
+
+.card3{
+    margin-top: 100px !important;
+}
+
+.card4{
+    margin-top: 140px !important;
+}
+
+.card5{
+    margin-top: 120px !important;
+}
+
+#main_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey ;
+    opacity: .5;
+}
+
+#main_bar li {
+    margin-left: 200px;
+    float: left;
+    border-right:2px solidgrey;
+    width: 150px;
+}
+
+#main_bar li a {
+    display: block;
+    color: MidnightBlue ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    font-size: 20px !important;
+}
+
+#main_bar li a:hover {
+    background-color: rgb(39, 159, 199);
+    font-weight: bold;
+}
+
+#main_bar .active {
+    background-color:rgb(39, 159, 199);
+}
+
+.profil-img img{
+    width: 150px;
+    height: 200px;
+    margin: 1em 0 10px 6.5em;
+  }
+  
+.profil{
+    border-top: 2px solid #B0C4DE;
+    font-size: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.profil2{
+    border-top: 2px solid #B0C4DE;
+    border-left: 2px solid #B0C4DE;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.profil>ul>li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.profil2>ul>li{
+list-style-type: none;
+padding-top: 10px;
+}
+
+.white{
+color: white;
+}
+
+.profil3{
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 23px;
+}
